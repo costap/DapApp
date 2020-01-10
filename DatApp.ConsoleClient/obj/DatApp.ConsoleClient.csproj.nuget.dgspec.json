@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/DatApp.ConsoleClient.csproj": {}
+  },
+  "projects": {
+    "/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/DatApp.ConsoleClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/DatApp.ConsoleClient.csproj",
+        "projectName": "DatApp.ConsoleClient",
+        "projectPath": "/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/DatApp.ConsoleClient.csproj",
+        "packagesPath": "/Users/pedro.costa/.nuget/packages/",
+        "outputPath": "/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pedro.costa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

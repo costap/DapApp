@@ -1,0 +1,14 @@
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/bin/Debug/netcoreapp3.0/DatApp.ConsoleClient
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/bin/Debug/netcoreapp3.0/DatApp.ConsoleClient.deps.json
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/bin/Debug/netcoreapp3.0/DatApp.ConsoleClient.runtimeconfig.json
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/bin/Debug/netcoreapp3.0/DatApp.ConsoleClient.runtimeconfig.dev.json
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/bin/Debug/netcoreapp3.0/DatApp.ConsoleClient.dll
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/bin/Debug/netcoreapp3.0/DatApp.ConsoleClient.pdb
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/bin/Debug/netcoreapp3.0/IdentityModel.dll
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/obj/Debug/netcoreapp3.0/DatApp.ConsoleClient.csprojAssemblyReference.cache
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/obj/Debug/netcoreapp3.0/DatApp.ConsoleClient.AssemblyInfoInputs.cache
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/obj/Debug/netcoreapp3.0/DatApp.ConsoleClient.AssemblyInfo.cs
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/obj/Debug/netcoreapp3.0/DatApp.ConsoleClient.csproj.CopyComplete
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/obj/Debug/netcoreapp3.0/DatApp.ConsoleClient.dll
+/Users/pedro.costa/src/sandbox/dotnet/DatApp/DatApp.ConsoleClient/obj/Debug/netcoreapp3.0/DatApp.ConsoleClient.pdb

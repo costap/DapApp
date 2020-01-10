@@ -19,8 +19,14 @@ namespace DatApp.API.Controllers
         public ValuesController(DataContext context)
         {
             this._context = context;
-
         }
+
+        [HttpGet("[action]")]
+        public IActionResult Claims()
+        {
+            return new JsonResult(from c in User.Claims select new { c.Type, c.Value });
+        }
+
         // GET api/values
         [HttpGet]
         public async Task<IActionResult> GetValues()
