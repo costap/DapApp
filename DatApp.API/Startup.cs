@@ -35,28 +35,28 @@ namespace DatApp.API
             services.AddCors();
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer("Bearer", options => 
-                {
-                    options.Authority = "http://localhost:5001";
-                    options.RequireHttpsMetadata = false;
-                    options.Audience = "api1";
-                });
+                // .AddJwtBearer("Bearer", options => 
+                // {
+                //     options.Authority = "http://localhost:5001";
+                //     options.RequireHttpsMetadata = false;
+                //     options.Audience = "api1";
+                // });
                 // .AddIdentityServerAuthentication( options => 
                 // {
                 //     options.Authority = "http://localhost:5000";
                 //     options.RequireHttpsMetadata = false;
                 //     options.ApiName = "DatAppApi";
                 // });
-                // .AddJwtBearer(options => {
-                //     options.TokenValidationParameters = new TokenValidationParameters
-                //     {
-                //         ValidateIssuerSigningKey = true,
-                //         IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII
-                //             .GetBytes(Configuration.GetSection("AppSettings:Token").Value)),
-                //         ValidateIssuer = false,
-                //         ValidateAudience = false
-                //     };
-                // });
+                .AddJwtBearer(options => {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII
+                            .GetBytes(Configuration.GetSection("AppSettings:Token").Value)),
+                        ValidateIssuer = false,
+                        ValidateAudience = false
+                    };
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
